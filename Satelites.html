@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sateliți</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagini/Nav/moon.png">
+    <!-- Link Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Nanum+Gothic&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero-satelites">
+        <nav class="p-s">
+            <ul>
+                <li><a href="index.html">Acasa</a></li>
+                <li><a href="Planets.html">Planete</a></li>
+                <li><a href="Planets.html">Despre</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <section class="secondary swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/moon.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2 class="animate__animated animate__zoomInUp animate__delay-0.7s">Luna</h2>
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Io.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2 class="animate__animated animate__lightSpeedInRight animate__delay-0.7s">Io</h2>
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Ganymede.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Ganymede</h2>
+
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Charon.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Charon</h2>
+
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Titan.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Titan</h2>
+
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/enceladus.jpeg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Enceladus</h2>
+
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Europa.png" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Europa</h2>
+
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Calisto.png" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Calisto</h2>
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Triton.png" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Triton</h2>
+
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/phobos.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Phobos</h2>
+
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="imagini/slider/Mimas.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text"></span>
+                    <h2>Mimas</h2>
+                    <a href="#" class="button">Aflați mai multe</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </section>
+
+    <!-- Swiper JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Start Swiper -->
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: true,
+            },
+            slidesPerView: 1,
+            loop: true,
+            keyboard: {
+                enabled: true
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    </div>
+
+</body>
+
+</html>
