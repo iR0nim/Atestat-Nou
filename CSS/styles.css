@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-#Build Settings
-markdown: kramdown
-theme: minima
 
 body {
     height: 100vh;
