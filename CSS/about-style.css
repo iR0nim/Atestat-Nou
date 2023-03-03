@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+}
+
+.hero {
+    position: absolute;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    justify-content: center;
+    transition: all 0.5s ease;
+    float: none;
+    top: 50%;
+}
+
+.hero ul li {
+    position: relative;
+    justify-items: center;
+    list-style-type: none;
+    display: inline-block;
+    z-index: 10;
+    margin: 45px;
+}
+
+.hero ul li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    border: 2px solid white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    transition: all 0.22s ease-in-out;
+    z-index: 1000;
+}
+
+.hero ul li a:hover span {
+    color: white;
+}
+
+.hero ul li a:hover {
+    box-shadow: 0 0 10px 1px rgb(9, 91, 87), inset 0 0 10px 1px rgb(16, 88, 93);
+}
