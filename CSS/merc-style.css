@@ -8,7 +8,7 @@
 #canvas {
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 }
 
 /*----------Nav-----------*/
@@ -83,8 +83,8 @@ h1:hover{
 }
 
 p1{
-    margin-top: 20px;
-    margin-right: 22%;
+    margin-top: 10px;
+    margin-right: 12%;
     margin-left: 59%;
     font-size: 18px;
     font-weight: 600;
@@ -93,8 +93,42 @@ p1{
 }
 
 
+.info-text .image{
+    position: relative;
+    
+    width: 500px;
+    height: 500px;
+    left: 12%;
+    top: -40%;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 60%;
+    
+}
 
 
+/*----------------Stats------------------*/
 
 
+.info-text .stats{
+    top: -30%;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
 
+.info-text .stats h3{
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 12px;
+    box-shadow: 100px 100px 100px 100px black inset;
+
+
+}
+
+.info-text .stats h3 span{
+    color: aqua;
+}
