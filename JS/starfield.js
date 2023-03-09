@@ -75,7 +75,7 @@ function start() {
             { speed: 0.003, scale: 0.5, count: 50 },
             { speed: 0.005, scale: 0.75, count: 30 }
         ],
-        starsAngle = 135,
+        starsAngle = 145,
         shootingStarSpeed = {
             min: 10,
             max: 15

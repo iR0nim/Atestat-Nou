@@ -8,7 +8,8 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #pattern {
@@ -23,7 +24,6 @@ body {
     top: 0;
     z-index: 1;
 }
-
 
 
 /*------------ Nav ---------*/
@@ -140,6 +140,7 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: 1;
     -webkit-transition: 0.7s ease-in-out;
+    cursor: default
 }
 
 h1 span {
@@ -147,6 +148,7 @@ h1 span {
     color: white;
     z-index: 100;
     -webkit-transition: 0.7s ease-in-out;
+    cursor: default
 }
 
 h1:hover {
@@ -257,6 +259,7 @@ h1:hover span {
     color: #fff;
     padding: 10px;
     letter-spacing: 2px;
+    cursor: default
 }
 
 a.button {
