@@ -551,8 +551,8 @@ a:hover {
     color:white;
     left: 20px;
     top: -120px;
-    text-shadow: 7px 7px 3px black;
     cursor: default;
+    text-shadow: 3px 2px 3px black;
 }
 
 
