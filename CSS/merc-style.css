@@ -33,7 +33,7 @@ html {
     display: block;
     position: absolute;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     z-index: -1;
 }
 
@@ -45,11 +45,12 @@ html {
     z-index: 10000;
     display: flex;
     align-items: center;
-    transform: translate(80%, 100%);
+    float: right;
     background: transparent;
     transition: all 0.5s ease;
-    margin-right: 5%;
-    padding-top: 15px;
+    position: absolute;
+    padding-right: 50px;
+    padding-top: 50px;
 }
 
 .p-s ul li {
@@ -83,7 +84,6 @@ html {
 }
 
 
-
 /*----------------Info--------------*/
 
 .info-text {
@@ -98,37 +98,40 @@ h1 {
     display: flex;
     font-size: 100px;
     margin-left: 10%;
-    margin-top: 8%;
+    padding-top: 170px;
+    font-size: 120px;
 }
 
 p1 {
     font-size: 23px;
     text-indent: 50px;
-    margin-left: 5%;
+    margin-left: 100px;
     margin-top: 10px;
-    margin-right: 35%;
-    white-space: 10px;
+    margin-right: 650px;
     display: flex;
+    position: relative;
 
 }
 
 p2 {
     font-size: 23px;
     text-indent: 40px;
-    margin-left: 5%;
+    margin-left: 100px;
     margin-top: 10px;
-    margin-right: 35%;
+    margin-right: 650px;
     white-space: 10px;
     display: flex;
+    position: relative;
 
 }
 
 
 .info-text .image {
-    position: relative;
-    height: 600px;
-    left: 67%;
-    top: -55%;
+    position: absolute;
+    height: 500px;
+    right: 40px;
+    top: 240px;
+    float: right;
 
 }
 
@@ -144,19 +147,47 @@ p2 {
 
 .info-text .stats {
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    top: -50.5%;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 80px 80px;
+    padding-top: 50px;
+    top: 80px;
+    margin-left: 200px;
     cursor: default;
 }
 
 .info-text .stats h3 {
     text-align: center;
     font-size: 20px;
-    padding: 10px;
-    margin-right: 8px;
-    margin-top: 8px;
-    border-radius: 1rem;
+}
+
+
+.info-text .stats-j {
+    position: relative;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 80px 80px;
+    padding-top: 50px;
+    top: 60px;
+    margin-left: 200px;
+    cursor: default;
+}
+
+.info-text .stats-j h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.info-text .stats-j h3 span {
+    color: aqua;
+}
+
+.info-text .stats-j span:hover {
+    color: white;
+}
+
+.info-text .stats-j:hover {
+    color: aqua;
 }
 
 .info-text .stats h3 span {
@@ -179,22 +210,24 @@ p2 {
     display: flex;
     width: 100%;
     background: #282a3a;
+    padding-bottom: 50px;
 }
 
 #Mercur .text span {
-    font-size: 40px;
+    font-size: 33px;
     justify-content: center;
     color: White;
     font-weight: 600;
+    text-decoration: underline;
 }
 
 .text {
+    margin-top: 100px;
     width: 100%;
     color: White;
-    top: 0;
     font-size: 20px;
-    margin-left: 21%;
-    margin-right: 21%;
+    margin-left: 100px;
+    margin-right: 50px;
     background: #1a1c2c;
     padding: 50px;
     border-radius: 1rem;
@@ -203,8 +236,12 @@ p2 {
 }
 
 .text p4 {
-    text-indent: 10px;
-    white-space: 100px;
+    padding: 15px;
+}
+
+.text a {
+    padding: 15px;
+    text-decoration: none;
 }
 
 
@@ -238,27 +275,138 @@ p2 {
 
 /*-------------- Anchor ----------- */
 
+
+@media screen and (max-width: 1280px) {
+    #Mercur .Anchor {
+        height: 562px;
+    }
+
+    h1 {
+        padding-top: 150px;
+        font-size: 80px;
+    }
+
+    p1 {
+        font-size: 20px
+    }
+
+    p2 {
+        font-size: 20px;
+    }
+
+
+    .info-text .stats {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 60px;
+        top: -70px;
+        left: 460px;
+        cursor: default;
+
+    }
+
+    .info-text .stats h3 {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 8px;
+        margin-top: 8px;
+        border-radius: 1rem;
+    }
+
+
+
+    .p-s ul li a {
+        position: relative;
+        text-decoration: none;
+        text-shadow: 5px 5px 8px rgb(0, 0, 0);
+        color: white;
+        font-size: 25px;
+        z-index: 10;
+        box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        transition: 0.5s ease-in;
+        border-radius: 5%;
+        padding: 15px 25px;
+    }
+}
+
+@media screen and (max-width:1920px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    p1 {
+        font-size: 20px
+    }
+
+    p2 {
+        font-size: 20px;
+    }
+
+    .info-text .image {
+        position: absolute;
+        height: 560px;
+        right: 40px;
+        top: 250px;
+        float: right;
+
+    }
+
+    .info-text .stats h3 {
+        margin-top: -10px;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+    p2 {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    p1 {
+        opacity: 0;
+    }
+
+    p2 {
+        opacity: 0;
+    }
+
+    .info-text .stats h3 {
+        opacity: 0;
+    }
+
+    #Mercur .Anchor {
+        height: 590px;
+    }
+}
+
 .Anchor {
     color: white;
     position: sticky;
-    display: inline-block;
-    font-size: 17px;
-    top: 65%;
+    text-align: center;
+    display: grid;
+    margin-top: 100px;
+    height: 530px;
+    width: 250px;
+    font-size: 18px;
     padding: 10px;
-    margin-left: 25px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
     border: 1px solid rgba(255, 255, 255, 0.582);
     background: #13151e;
-    z-index: 1;
+    top: 10%;
+    right: 10px;
+    z-index: 10;
 }
 
 .An {
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 a {
@@ -271,28 +419,207 @@ a:hover {
     transition: 0.2s;
 }
 
-
 #Footer {
     height: 120px;
-    background: #282a3a;
+    background: rgb(0, 3, 10);
     cursor: default;
     text-decoration: none;
+    border-top: 1px solid rgb(50, 50, 50);
+
 }
 
 #Footer h6 {
     color: rgb(82, 82, 82);
     font-size: 15px;
-    padding-top: 85px;
-    padding-left: 25.5%;
-
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
-#Footer h6 span {
-    padding-left: 10%;
-}
 
-#Footer h6 a{
+#Footer h6 a {
     text-decoration: none;
     color: rgb(82, 82, 82);
 }
+
+
+
+/*--------------- Pamant ----------------*/
+
+
+@media screen and (max-width: 1280px) {
+    #Mercur .Anchor-P {
+        height: 630px;
+    }
+}
+
+
+
+.Anchor-P {
+    color: white;
+    position: sticky;
+    text-align: center;
+    display: grid;
+    margin-top: 100px;
+    height: 600px;
+    width: 250px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    background: #13151e;
+    top: 10%;
+    right: 10px;
+    z-index: 10;
+}
+
+
+/*--------------- Venus ---------------*/
+
+
+
+.info-text .stats-v {
+    position: relative;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 80px 80px;
+    padding-top: 50px;
+    top: 80px;
+    margin-left: 200px;
+    cursor: default;
+}
+
+.info-text .stats-v h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:1280px) {
+    .info-text .stats-v {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows:60px;
+        padding: 50px;
+        left: 410px;
+        top: 10px;
+
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:1280px){
+    .info-text .stats-j {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 60px;
+        top: 70px;
+        left: 465px;
+        cursor: default;
+
+    }
+
+    .info-text .stats-j h3 {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 8px;
+        margin-top: 8px;
+        border-radius: 1rem;
+    }
+}
+
+
+/*--------------------- Saturn ------------*/
+
+.info-text-s{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.info-text-s h1{
+    font-size: 250px;
+    position: absolute;
+    color:white;
+    left: 20px;
+    top: -120px;
+    text-shadow: 7px 7px 3px black;
+    cursor: default;
+}
+
+
+.info-text-s .image-s {
+    position: relative;
+    height: 900px;
+    left: 220px;
+    top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.image-s {
+    border-radius: 1rem;
+}
+
+
+.info-text-s .stats-s {
+    position: relative;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 80px 80px;
+    padding-top: 50px;
+    top: 150px;
+    margin-left: 140px;
+    cursor: default;
+}
+
+.info-text-s .stats-s h3 {
+    opacity: 0;
+}
+
+
+
+
+@media screen and (max-width:1280px){
+    .info-text-s .image-s {
+        position: relative;
+        top: 200px;
+        height: 700px;
+        left: 80px;
+        margin-bottom: 300px;
+    
+    }
+
+    .info-text-s .stats-s {
+        position: relative;
+        display: flex;
+        padding-top: 50px;
+        top: 180px;
+        margin-left: 50px;
+        cursor: default;
+    }
+
+    .info-text-s h1{
+        font-size: 160px;
+        color:white;
+        left: 40px;
+        top: 40px;
+
+    }
+    
+    .stats-s{
+        opacity: 0 ;
+    }
+
+    
+    
+}
+

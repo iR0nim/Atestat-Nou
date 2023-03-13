@@ -83,6 +83,7 @@ body {
     transition: all 0.5s ease;
     float: none;
     top: 50%;
+    
 }
 
 .hero ul li {
@@ -140,7 +141,8 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: 1;
     -webkit-transition: 0.7s ease-in-out;
-    cursor: default
+    cursor: default;
+
 }
 
 h1 span {
@@ -180,6 +182,7 @@ h1:hover span {
     overflow: hidden;
     z-index: 2;
     letter-spacing: 2px;
+    
 }
 
 .info:hover p1 {
