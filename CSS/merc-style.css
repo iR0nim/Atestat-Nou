@@ -542,7 +542,7 @@ a:hover {
 .info-text-s{
     height: 100vh;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .info-text-s h1{
