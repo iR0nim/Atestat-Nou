@@ -660,6 +660,7 @@ a:hover {
 @media screen and (max-width: 1280px){
     .info-text-sat {
         padding-bottom: 110px;
+        margin-bottom: 100px;
     }
     .info-text-sat p1{
         font-size: 24px;
