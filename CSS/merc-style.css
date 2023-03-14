@@ -598,6 +598,22 @@ a:hover {
     }
 
     
-    
+}
+
+.Anchor-S {
+    color: white;
+    position: sticky;
+    text-align: center;
+    display: grid;
+    margin-top: 100px;
+    height: 660px;
+    width: 250px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    background: #13151e;
+    top: 10%;
+    right: 10px;
+    z-index: 10;
 }
 
