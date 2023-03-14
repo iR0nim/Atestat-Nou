@@ -627,7 +627,6 @@ a:hover {
     position: relative;
     width: 100%;
     cursor: default;
-    padding-bottom: 120px;
 }
 
 .info-text-sat h1{
@@ -646,7 +645,7 @@ a:hover {
     position: absolute;
     height: 500px;
     right: 80px;
-    top: 280px;
+    top: 260px;
     float: right;
 
 }
