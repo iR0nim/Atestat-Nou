@@ -174,34 +174,6 @@ p2 {
     cursor: default;
 }
 
-.info-text .stats-j h3 {
-    text-align: center;
-    font-size: 20px;
-}
-
-.info-text .stats-j h3 span {
-    color: aqua;
-}
-
-.info-text .stats-j span:hover {
-    color: white;
-}
-
-.info-text .stats-j:hover {
-    color: aqua;
-}
-
-.info-text .stats h3 span {
-    color: aqua;
-}
-
-.info-text .stats span:hover {
-    color: white;
-}
-
-.info-text .stats:hover {
-    color: aqua;
-}
 
 
 /*-------------- Mercur Info Page ------------ */
@@ -777,34 +749,6 @@ p2 {
     cursor: default;
 }
 
-.info-text .stats-j h3 {
-    text-align: center;
-    font-size: 20px;
-}
-
-.info-text .stats-j h3 span {
-    color: aqua;
-}
-
-.info-text .stats-j span:hover {
-    color: white;
-}
-
-.info-text .stats-j:hover {
-    color: aqua;
-}
-
-.info-text .stats h3 span {
-    color: aqua;
-}
-
-.info-text .stats span:hover {
-    color: white;
-}
-
-.info-text .stats:hover {
-    color: aqua;
-}
 
 
 /*-------------- Mercur Info Page ------------ */
@@ -1210,7 +1154,7 @@ a:hover {
     text-align: center;
     display: grid;
     margin-top: 100px;
-    height: 660px;
+    height: 690px;
     width: 250px;
     font-size: 18px;
     padding: 10px;
@@ -1221,3 +1165,56 @@ a:hover {
     z-index: 10;
 }
 
+.info-text .image-u {
+    position: absolute;
+    height: 500px;
+    right: 40px;
+    top: 240px;
+    float: right;
+    padding: 20px;
+
+}
+
+.image-u {
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width:1280px){
+    .info-text .stats-u {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 10px;
+        top: 90px;
+        cursor: default;
+
+    }
+
+    .info-text .stats-u h3 {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 8px;
+        margin-top: 8px;
+        border-radius: 1rem;
+    }
+
+}
+
+.info-text .stats-u {
+    position: relative;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 80px 80px;
+    padding-top: 50px;
+    top: 80px;
+    margin-left: 200px;
+    cursor: default;
+}
+
+.info-text .stats-u h3 {
+    text-align: center;
+    font-size: 20px;
+}
