@@ -71,6 +71,22 @@ body {
     z-index: 10;
 }
 
+@media screen and (max-width:1280px){
+    .p-s ul li a {
+        position: relative;
+        text-decoration: none;
+        text-shadow: 5px 5px 8px rgb(0, 0, 0);
+        color: white;
+        font-size: 20px;
+        z-index: 10;
+        box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        transition: 0.5s ease-in;
+        border-radius: 5%;
+        padding: 10px 30px;
+    }
+}
+
 
 
 .hero {
