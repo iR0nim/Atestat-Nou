@@ -626,9 +626,8 @@ a:hover {
 .info-text-sat {
     position: relative;
     width: 100%;
-    color: white;
     cursor: default;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .info-text-sat h1{
