@@ -60,7 +60,7 @@ body {
     box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
     border: 2px solid rgba(255, 255, 255, 0.2);
     transition: 0.5s ease-in;
-    border-radius: 5%;
+    border-radius: 0.3rem;
     padding: 5px 15px;
 }
 
@@ -71,22 +71,21 @@ body {
     z-index: 10;
 }
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1280px) {
     .p-s ul li a {
         position: relative;
         text-decoration: none;
         text-shadow: 5px 5px 8px rgb(0, 0, 0);
         color: white;
-        font-size: 20px;
+        font-size: 23px;
         z-index: 10;
         box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
         border: 2px solid rgba(255, 255, 255, 0.2);
         transition: 0.5s ease-in;
         border-radius: 5%;
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
 }
-
 
 
 .hero {
@@ -99,7 +98,6 @@ body {
     transition: all 0.5s ease;
     float: none;
     top: 50%;
-    
 }
 
 .hero ul li {
@@ -150,7 +148,6 @@ h1 {
     min-width: 105%;
     font-size: 155px;
     text-align: center;
-    font-weight: bold;
     color: white;
     top: 45%;
     left: 51%;
@@ -158,7 +155,6 @@ h1 {
     z-index: 1;
     -webkit-transition: 0.7s ease-in-out;
     cursor: default;
-
 }
 
 h1 span {
@@ -169,16 +165,6 @@ h1 span {
     cursor: default
 }
 
-h1:hover {
-    color: #A85763;
-    transition: all 0.5s ease-in-out;
-}
-
-
-h1:hover span {
-    color: #57A89C;
-    transition: all 0.5s ease-in-out;
-}
 
 .info {
     position: fixed;
@@ -189,16 +175,14 @@ h1:hover span {
     margin-bottom: 45px;
     bottom: 0;
     color: white;
-    max-width: 300px;
+    max-width: 330px;
     padding: 20px 25px;
     border: 2px solid #fff;
     border-radius: 3%;
     text-transform: uppercase;
-    font-weight: bold;
     overflow: hidden;
     z-index: 2;
     letter-spacing: 2px;
-    
 }
 
 .info:hover p1 {
@@ -268,24 +252,24 @@ h1:hover span {
 
 .image-data span.text {
     font-size: 14px;
-    font-weight: 400;
     color: #fff;
 }
 
 .image-data h2 {
     font-size: 100px;
-    font-weight: 0;
     color: #fff;
     padding: 10px;
+    font-weight: 600;
     letter-spacing: 2px;
-    cursor: default
+    cursor: default;
+    text-shadow: 4px 4px 6px black;
 }
 
 a.button {
     display: inline-block;
     font-size: 20px;
-    padding: 10px 21px;
-    border-radius: 18px;
+    padding: 10px 20px;
+    border-radius: 12px;
     color: rgb(21, 21, 21);
     background: #fff;
     text-decoration: none;
@@ -297,4 +281,12 @@ a.button {
 a.button:hover {
     color: #ffffff;
     background-color: rgb(0, 0, 0);
+}
+
+#melodysheepVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }

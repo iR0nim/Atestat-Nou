@@ -68,13 +68,13 @@ html {
     text-decoration: none;
     text-shadow: 5px 5px 8px rgb(0, 0, 0);
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     z-index: 10;
     box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
     border: 2px solid rgba(255, 255, 255, 0.2);
     transition: 0.5s ease-in;
     border-radius: 5%;
-    padding: 5px 15px;
+    padding: 10px 20px;
 }
 
 .p-s ul li a:hover {
@@ -100,6 +100,7 @@ h1 {
     font-size: 100px;
     margin-left: 10%;
     padding-top: 170px;
+    font-weight:550;
     font-size: 120px;
 }
 
@@ -133,12 +134,14 @@ p2 {
     right: 40px;
     top: 240px;
     float: right;
+    
 
 }
 
 .image {
     border-radius: 1rem;
     background-color: rgb(0, 0, 0, 0.2);
+    padding: 10px;
 }
 
 
@@ -209,6 +212,7 @@ p2 {
 
 .text p4 {
     padding: 15px;
+    display:flex;
 }
 
 .text a {
@@ -248,87 +252,6 @@ p2 {
 /*-------------- Anchor ----------- */
 
 
-@media screen and (max-width: 1280px) {
-    #Mercur .Anchor {
-        height: 562px;
-    }
-
-    h1 {
-        padding-top: 150px;
-        font-size: 80px;
-    }
-
-    p1 {
-        font-size: 20px
-    }
-
-    p2 {
-        font-size: 20px;
-    }
-
-
-    .info-text .stats {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px;
-        grid-template-rows: 60px;
-        top: -170px;
-        left: 460px;
-        cursor: default;
-
-    }
-
-    .info-text .stats h3 {
-        text-align: center;
-        font-size: 20px;
-        padding: 10px;
-        margin-right: 8px;
-        margin-top: 8px;
-        border-radius: 1rem;
-    }
-
-
-
-    .p-s ul li a {
-        position: relative;
-        text-decoration: none;
-        text-shadow: 5px 5px 8px rgb(0, 0, 0);
-        color: white;
-        font-size: 25px;
-        z-index: 10;
-        box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
-        border: 2px solid rgba(255, 255, 255, 0.2);
-        transition: 0.5s ease-in;
-        border-radius: 5%;
-        padding: 15px 25px;
-    }
-}
-
-
-
-@media screen and (max-width:1200px) {
-    p2 {
-        opacity: 0;
-    }
-}
-
-@media screen and (max-width:1000px) {
-    p1 {
-        opacity: 0;
-    }
-
-    p2 {
-        opacity: 0;
-    }
-
-    .info-text .stats h3 {
-        opacity: 0;
-    }
-
-    #Mercur .Anchor {
-        height: 590px;
-    }
-}
 
 .Anchor {
     color: white;
@@ -393,12 +316,6 @@ a:hover {
 /*--------------- Pamant ----------------*/
 
 
-@media screen and (max-width: 1280px) {
-    #Mercur .Anchor-P {
-        height: 630px;
-    }
-}
-
 
 
 .Anchor-P {
@@ -440,46 +357,6 @@ a:hover {
 }
 
 
-@media screen and (max-width:1280px) {
-    .info-text .stats-v {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px;
-        grid-template-rows:60px;
-        padding: 50px;
-        left: 410px;
-        top: 10px;
-
-    }
-
-}
-
-
-
-
-
-
-@media screen and (max-width:1280px){
-    .info-text .stats-j {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px;
-        grid-template-rows: 60px;
-        top: 70px;
-        left: 465px;
-        cursor: default;
-
-    }
-
-    .info-text .stats-j h3 {
-        text-align: center;
-        font-size: 20px;
-        padding: 10px;
-        margin-right: 8px;
-        margin-top: 8px;
-        border-radius: 1rem;
-    }
-}
 
 
 /*--------------------- Saturn ------------*/
@@ -492,58 +369,47 @@ a:hover {
 
 .info-text-s h1{
     font-size: 250px;
+    font-weight : 900;
     position: absolute;
     color:white;
-    left: 20px;
+    left: -20px;
     top: -120px;
     cursor: default;
-    text-shadow: 3px 2px 3px black;
+    text-shadow: 3px 5px 5px black;
 }
 
 
 .info-text-s .image-s {
     position: absolute;
     height: 900px;
-    left: 220px;
+    left: 190px;
     top: 100px;
     padding-bottom: 50px;
 
 }
 
-
 @media screen and (max-width:1280px){
-    .info-text-s .image-s {
-        position: relative;
-        top: 200px;
-        height: 700px;
-        left: 80px;
-        margin-bottom: 300px;
-    
-    }
 
-    .info-text-s .stats-s {
-        position: relative;
-        display: flex;
-        padding-top: 50px;
-        top: 180px;
-        margin-left: 50px;
-        cursor: default;
-    }
-
-    .info-text-s h1{
-        font-size: 160px;
-        color:white;
-        left: 40px;
-        top: 40px;
-
-    }
-    
-    .stats-s{
-        opacity: 0 ;
-    }
-
+        .info-text-s h1 {
+            font-size: 150px;
+            font-weight: 900;
+            position: absolute;
+            color: white;
+            left: -20px;
+            top: 20px;
+            cursor: default;
+            text-shadow: 3px 5px 5px black;
+        }
     
     
+        .info-text-s .image-s {
+            position: absolute;
+            height: 700px;
+            left: 60px;
+            top: 200px;
+            padding-bottom: 50px;
+    
+        }
 }
 
 
@@ -563,6 +429,7 @@ a:hover {
     background: #13151e;
     top: 10%;
     right: 10px;
+    margin-top:10%;
     z-index: 10;
 }
 
@@ -581,28 +448,6 @@ a:hover {
     background-color: rgb(0, 0, 0, 0.2);
 }
 
-
-@media screen and (max-width:1280px){
-    .info-text .stats-u {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px;
-        grid-template-rows: 10px;
-        top: 90px;
-        cursor: default;
-
-    }
-
-    .info-text .stats-u h3 {
-        text-align: center;
-        font-size: 20px;
-        padding: 10px;
-        margin-right: 8px;
-        margin-top: 8px;
-        border-radius: 1rem;
-    }
-
-}
 
 .info-text .stats-u {
     position: relative;
@@ -626,6 +471,7 @@ a:hover {
 .info-text-sat {
     position: relative;
     width: 100%;
+    height:100vh;
     color: white;
     cursor: default;
     padding-bottom: 120px;
@@ -633,6 +479,7 @@ a:hover {
 
 .info-text-sat h1{
     font-size: 100px;
+    margin-left: 220px;
 }
 
 .info-text-sat p1{
@@ -663,10 +510,10 @@ a:hover {
     }
     .info-text-sat p1{
         font-size: 24px;
-        top: 50px;
+        top: 20px;
     }
     .info-text-sat h1{
-        padding-left: 80px;
+        padding-left: 200px;
 
     }
 
@@ -699,4 +546,76 @@ a:hover {
     top: 10%;
     right: 10px;
     z-index: 10;
+}
+
+
+@media screen and ( max-width:1280px ){
+
+    .info-text h1{
+        font-size: 85px;
+        font-weight: 600;
+    }
+
+    .info-text p2{
+        opacity: 0;
+        font-size:0;
+    }
+
+    .info-text .stats{
+        left: -130px;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 50px 50px;
+    }
+
+    .p-s {
+        top: 0;
+        right: 0;
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        float: right;
+        background: transparent;
+        transition: all 0.5s ease;
+        position: absolute;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    
+    .p-s ul li {
+        position: relative;
+        justify-content: right;
+        list-style-type: none;
+        display: inline-block;
+        z-index: 10;
+        margin-right: -6px;
+    }
+    
+    .p-s ul li a {
+        position: relative;
+        text-decoration: none;
+        text-shadow: 5px 5px 8px rgb(0, 0, 0);
+        color: white;
+        font-size: 23px;
+        z-index: 10;
+        box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        transition: 0.5s ease-in;
+        border-radius: 5%;
+        padding: 12px 22px;
+    }
+    
+    .p-s ul li a:hover {
+        box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.4) inset;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        transition: 0.3s ease-in;
+        z-index: 10;
+    }
+
+
+}
+
+@media screen and (max-width:1280px){
+    .info-text-sat h1{
+        margin-left:-10px;
+    }
 }
