@@ -555,6 +555,10 @@ a:hover {
         font-size: 85px;
         font-weight: 600;
     }
+    
+    .info-text p1{
+        font-size: 22px;
+    }
 
     .info-text p2{
         opacity: 0;
