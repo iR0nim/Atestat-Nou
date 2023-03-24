@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Link CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/about-style.css">
+    <!-- Link Stars Script -->
+    <script type="text/javascript" src="../JS/starfield.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Link Quiz -->
+    <script type="text/javascript" src="../JS/quiz.js"></script>
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Nanum+Gothic&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+    <title>Despre</title>
 </head>
+<canvas id="canvas" width="100%" height="100vh"></canvas>
 <body>
-    
+        <div class="hero-satelites">
+            <nav class="p-s">
+                <ul>
+                    <li><a href="../index.html">Acasa</a></li>
+                    <li><a href="../Planets.html">Planete</a></li>
+                    <li><a href="../Satelites.html">Sateliti</a></li>
+                </ul>
+            </nav>
+        </div>
+    <div id="quiz">
+        <h2>Ce planeta iti place?</h2>
+        <p>Selecteaza raspunsul:</p>
+        <div class="answers">
+            <input type="radio" name="planet" value="1">
+            <label>Mercur</label>
+            <br>
+            <input type="radio" name="planet" value="2">
+            <label>Venus</label>
+            <br>
+            <input type="radio" name="planet" value="3">
+            <label>Pamant</label>
+            <br>
+            <input type="radio" name="planet" value="4">
+            <label>Marte</label>
+            <br>
+            <input type="radio" name="planet" value="5">
+            <label>Saturn</label>
+            <br>
+            <input type="radio" name="planet" value="6">
+            <label>Neptun</label>
+        </div>
+        <button onclick="checkAnswer()">Prezinta</button>
+        <p id="result"></p>
+    </div>
+
 </body>
 </html>

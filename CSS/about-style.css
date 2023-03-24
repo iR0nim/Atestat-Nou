@@ -5,48 +5,125 @@
     box-sizing: border-box;
 }
 
+#canvas {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
 body{
     background-color:black;
 }
 
-.hero {
-    position: absolute;
-    min-width: 100%;
+.p-s {
+    top: 0;
+    right: 0;
+    z-index: 10000;
     display: flex;
     align-items: center;
+    float: right;
     background: transparent;
-    justify-content: center;
     transition: all 0.5s ease;
-    float: none;
-    top: 50%;
+    position: absolute;
+    padding-right: 50px;
+    padding-top: 50px;
+    z-index:10;
 }
 
-.hero ul li {
+.p-s ul li {
     position: relative;
-    justify-items: center;
+    justify-content: right;
     list-style-type: none;
     display: inline-block;
     z-index: 10;
-    margin: 45px;
+    margin-right: -6px;
 }
 
-.hero ul li a {
+.p-s ul li a {
     position: relative;
-    display: inline-block;
     text-decoration: none;
+    text-shadow: 5px 5px 8px rgb(0, 0, 0);
     color: white;
-    font-size: 28px;
-    border: 2px solid white;
-    padding: 5px 20px 5px 20px;
-    border-radius: 40px;
-    transition: all 0.22s ease-in-out;
-    z-index: 1000;
+    font-size: 22px;
+    z-index: 10;
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2) inset;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: 0.5s ease-in;
+    border-radius: 5%;
+    padding: 10px 20px;
 }
 
-.hero ul li a:hover span {
-    color: white;
+.p-s ul li a:hover {
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.4) inset;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: 0.3s ease-in;
+    z-index: 10;
 }
 
-.hero ul li a:hover {
-    box-shadow: 0 0 10px 1px rgb(9, 91, 87), inset 0 0 10px 1px rgb(16, 88, 93);
+
+#quiz {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    width: 60%;
+}
+
+#quiz-2 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 220px;
+    width: 60%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+.answers {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px; 
+}
+
+label {
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
 }

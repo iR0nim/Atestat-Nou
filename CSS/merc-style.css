@@ -504,17 +504,16 @@ a:hover {
     background-color: rgb(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width:1280px){
     .info-text-sat {
         padding-bottom: 200px;
     }
     .info-text-sat p1{
-        font-size: 24px;
+        font-size: 22px;
         top: 20px;
     }
     .info-text-sat h1{
-        padding-left: 200px;
-
+        padding-left: 150px;
     }
 
     .info-text-sat p2{
@@ -555,7 +554,7 @@ a:hover {
         font-size: 85px;
         font-weight: 600;
     }
-    
+
     .info-text p1{
         font-size: 22px;
     }
