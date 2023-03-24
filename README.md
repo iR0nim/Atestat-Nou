@@ -1,3 +1,3 @@
 ﻿# Atestat-Nou
 
-Site about space idk, version like 0.5-0.6 idk.
+Site about space idk, version like 1 let's gooo idk. Changes are going to be made.
